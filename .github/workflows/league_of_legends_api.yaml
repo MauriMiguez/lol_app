@@ -1,0 +1,10 @@
+name: league_of_legends_api
+on:
+  pull_request:
+    paths:
+      - 'packages/league_of_legends_api/**'
+      - '.github/workflows/league_of_legends_api.yaml'
+
+jobs:
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/dart_package.yml@v1
