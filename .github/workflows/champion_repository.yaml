@@ -1,0 +1,12 @@
+name: champions_repository
+on:
+  pull_request:
+    paths:
+      - 'packages/champions_repository/**'
+      - '.github/workflows/champions_repository.yaml'
+
+jobs:
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/dart_package.yml@v1
+  with:
+    working_directory: packages/champions_repository

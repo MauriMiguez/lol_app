@@ -1,0 +1,16 @@
+name: champions_repository
+description: Dart package for the champion domain
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  league_of_legends_api:
+    path: ../league_of_legends_api
+
+dev_dependencies:
+  mocktail: ^1.0.4
+  test: ^1.25.8
+  very_good_analysis: ^6.0.0
