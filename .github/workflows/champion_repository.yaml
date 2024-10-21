@@ -8,5 +8,5 @@ on:
 jobs:
   build:
     uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/dart_package.yml@v1
-  with:
-    working_directory: packages/champions_repository
+    with:
+      working_directory: packages/champions_repository
