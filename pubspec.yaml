@@ -13,7 +13,7 @@ dependencies:
   champions_repository:
     path: packages/champions_repository
   dots_indicator: ^3.0.0
-  equatable: ^2.0.5
+  equatable: ^2.0.6
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.6
