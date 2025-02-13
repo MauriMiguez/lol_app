@@ -12,7 +12,7 @@ dependencies:
   carousel_slider: ^5.0.0
   champions_repository:
     path: packages/champions_repository
-  dots_indicator: ^3.0.0
+  dots_indicator: ^4.0.0
   equatable: ^2.0.5
   flutter:
     sdk: flutter
